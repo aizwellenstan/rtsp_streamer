@@ -1,0 +1,29 @@
+{
+  "name": "ke-rtsp",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/Index.js",
+  "types": "./dist/Index.d.ts",
+  "typings": "./dist/Index.d.ts",
+  "scripts": {
+    "start": "npm run sample",
+    "build": "tsc",
+    "sample": "node ./sample/index.js"
+  },
+  "keywords": [
+    "media source extensions",
+    "mse",
+    "ffmpeg",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "@types/socket.io": "^2.1.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  }
+}
